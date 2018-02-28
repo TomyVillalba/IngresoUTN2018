@@ -6,11 +6,11 @@ var contDivisores=0;
    var esDivisor;
 
    numero = parseInt(prompt("Ingrese un numero"));
-   for(i = 2; i <= numero; i ++)
+   for(i = 1; i <= numero; i ++)
    {
-       if(i % 2 == 0)
+       if(numero % i == 0)
        {
-           contPares ++;
+           contDivisores ++;
            console.log(i)
        }
    }

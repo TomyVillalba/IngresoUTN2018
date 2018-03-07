@@ -1,12 +1,18 @@
 function Mostrar()
 {
 
-var clave = prompt("ingrese el número clave");
+var clave = prompt("Ingrese la clave ");
 
-        while (clave != "utn750")
-        {
-            clave = prompt("Esta contraseña no es valida, por favor ingresela nuevamente");
-        }
-         alert("Clave correcta, bienvenido");
+while(clave != "utn750")
+{
+    alert("Error. Clave incorrecta. Por favor vuelva a reingresar la clave");
+    
+    var clave = prompt("Ingrese la clave ");
+}
 
-}//FIN DE LA FUNCIÓN
+alert("Clave correcta. Bienvenido");
+
+
+}
+
+//FIN DE LA FUNCIÓN

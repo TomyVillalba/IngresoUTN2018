@@ -8,5 +8,5 @@ function Mostrar()
 	 {
 		numero = prompt("Ingrese un numero entre 0 y 10");
 	 }
-	 	document.getElementById("Numero");
+	 	document.getElementById("Numero").value;
 }//FIN DE LA FUNCIÓN
